@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="rk"
+           fetch="https://github.com/RenderKernels" />
+
+  <default revision="lp5.1"
+           remote="rk"
+           sync-c="true"
+           sync-j="8" />
+
+  <project path="build" name="build">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="android" name="kernel_manifests"/>
+
+</manifest>
