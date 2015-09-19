@@ -16,5 +16,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="kernel_manifests"/>
+  <project path="device/build/targets" name="build-targets"/>
   <project path="vendor/rendor" name="vendor_render" />
 </manifest>
