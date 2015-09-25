@@ -20,5 +20,7 @@
   </project>
   <project path="android" name="kernel_manifests"/>
   <project path="device/build/targets" name="build-targets"/>
-  <project path="vendor/render" name="vendor_render" />
+  <project path="vendor/render" name="vendor_render" >
+    <copyfile src="tools/buildzip.sh" dest="buildzip.sh" />
+  </project>
 </manifest>
