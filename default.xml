@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="rk"
+  <remote  name="black"
            fetch="https://github.com/RenderKernels" />
 
   <remote  name="gh"
@@ -14,7 +14,7 @@
            fetch="https://android.googlesource.com" />
 
   <default revision="mm6.0"
-           remote="rk"
+           remote="black"
            sync-c="true"
            sync-j="8" />
 
@@ -22,8 +22,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="kernel_manifests"/>
-  <project path="device/build/targets" name="build-targets"/>
   <project path="vendor/render" name="vendor_render" >
     <copyfile src="tools/buildzip.sh" dest="buildzip.sh" />
+    <copyfile src="device.targets" dest="device/build/targets" />
   </project>
 </manifest>
