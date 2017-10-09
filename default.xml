@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="black"
-           fetch="https://github.com/B14CKB1RD-Kernel" />
+           fetch="https://bitbucket.org/B14CKB1RD-Kernel/" />
 
   <remote  name="gh"
            fetch="https://github.com/" />
