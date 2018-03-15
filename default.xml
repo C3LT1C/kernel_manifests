@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="black"
-           fetch="https://github.com/B14CKB1RD-Kernel" />
+  <remote  name="celtic"
+           fetch="https://github.com/C3LT1C" />
 
   <remote  name="gh"
            fetch="https://github.com/" />
@@ -13,8 +13,8 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
 
-  <default revision="n"
-           remote="black"
+  <default revision="o"
+           remote="celtic"
            sync-c="true"
            sync-j="8" />
 
@@ -22,7 +22,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="kernel_manifests"/>
-  <project path="vendor/black" name="vendor_black" >
+  <project path="vendor/celtic" name="vendor_celtic" >
     <copyfile src="tools/buildzip.sh" dest="buildzip.sh" />
     <copyfile src="device.targets" dest="device/build/targets" />
   </project>
