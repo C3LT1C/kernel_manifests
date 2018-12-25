@@ -13,7 +13,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
 
-  <default revision="o"
+  <default revision="p9.0"
            remote="celtic"
            sync-c="true"
            sync-j="8" />
